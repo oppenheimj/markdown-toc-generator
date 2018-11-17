@@ -13,7 +13,7 @@ def depth_to_line_number(depth, previous_depth):
   return str(depth2count[depth]) + '. '
 
 def markdown_hyperlink(text, url):
-  return '[' + text + '](' + url + ')'
+  return f'[{ text }]({ url })'
 
 def read_file():
   try:
