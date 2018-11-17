@@ -1,17 +1,13 @@
-# Introduction
-bla bla
-## Another section
-
-### somehting else
-asdf
-
-##  And another 
-
-## another
-
-### some
-
-#### thing
-
-## yet another
-# Networks
+# Structure
+## The perceptron
+## The network
+## Implementation
+### Weights
+### Neural activity and output
+### Deltas
+# Operation
+## Overview
+## Forward propagation
+## Back propagation
+### Calculating deltas
+### Updating weights
