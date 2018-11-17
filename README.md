@@ -1,4 +1,16 @@
 # markdown-toc-generator
+This script is used to generate a table of contents for a markdown file.
+
+Sample usage:
+```
+python .\md_toc_generator.py
+Enter file path: sample_input.md
+Success! Table of contents written to toc_output.md.
+```
+The file path can be absolute or relative. The script isn't ultra robust but should work in most cases.
+
+# Sample output
+Were the the input file to contain the sections below, for example, this is what the generated table of contents would look like. Note that each entry in the table links to the given section.
 
 1. [Structure](#structure)
 	1. [The perceptron](#the-perceptron)
