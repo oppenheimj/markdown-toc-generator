@@ -21,7 +21,7 @@ def write_output_file():
 
   outfile.close()
 
-infile = open('markdown_file.md', 'r')
+infile = open('sample_input.md', 'r')
 table_of_contents = []
 
 depth2count = {}
